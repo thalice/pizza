@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./styles/Header.scss";
 
 function Header() {
   return (
-    <div>
-      <img id="logo" src="" alt=""></img>
+    <div id="header">
+      {" "}
       <NavLink classname="link" activeClassName="active-link" to="/">
-        Logo
+        <img id="logo" src="images/logo.png" alt=""></img>
       </NavLink>
       <ul>
         <li>
