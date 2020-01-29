@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       <ul>
-        <li></li>
+        <li>BloBlo</li>
         <li></li>
       </ul>
     </div>
