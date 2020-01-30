@@ -10,10 +10,14 @@ function Footer() {
       </ul>
       <ul className="icons">
         <li>
-          <img src="/images/iconinsta.png" alt=""></img>
+          <a href="https://www.instagram.com" target="blank">
+            <img src="/images/iconinsta.png" alt=""></img>
+          </a>
         </li>
         <li>
-          <img src="/images/iconface.png" alt=""></img>
+          <a href="https://www.facebook.com" target="blank">
+            <img src="/images/iconface.png" alt=""></img>
+          </a>
         </li>
       </ul>
     </div>
